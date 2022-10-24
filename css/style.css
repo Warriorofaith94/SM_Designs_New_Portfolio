@@ -4,6 +4,8 @@
   --second-color:#0D0D0D;
   --third-color: #F28241;
   --fourth-color: #0D0D0D;
+  --fifth-color: #F2B749;
+  --sixth-color: white;
 
 /*=== Hover Colors===*/
 --hover-color: #FCC749;
@@ -23,6 +25,8 @@
     --second-color: white;
     --third-color: #F2B749;
     --fourth-color: white;
+    --fifth-color: white;
+    --sixth-color: #102048;
 
   /*=== Background Colors ===*/
     --hover-color:#F49751;
@@ -81,8 +85,8 @@ section{
   bottom: 20px;
   width: 45px;
   height: 45px;
-  background: #F2A950;
-  color: white;
+  background: var(--fifth-color);
+  color: var(--sixth-color);
   font-size: 15px;
   border-radius: 3px;
   cursor: pointer;
@@ -104,7 +108,7 @@ section{
   right: 0;
   top: 100px;
   background: var(--transparent-color-01);
-  color:var(--third-color);
+  color: var(--third-color);
   backdrop-filter: blur(20px);
   width: 50px;
   height: 50px;
