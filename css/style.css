@@ -974,12 +974,13 @@ and (max-width: 1180px) {
   }
 
   .skill-section {
-    padding: 20px;
+    padding: 30px;
   }
 
   .skills-info {
     gap: 20px;
     max-width: 1000px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 
   .bar .info span {
