@@ -440,6 +440,10 @@ section{
   border-radius: 5px;
 }
 
+.education-all {
+  margin-bottom: 80px;
+}
+
 .edu-list .item {
   background: var(--card-bg-color);
   box-shadow: var(--box-shadow);
@@ -447,7 +451,6 @@ section{
   padding: 20px;
   margin-top: 15px;
   border-radius: 6px;
-  transition: .3s ease;
 }
 
 .edu-list .item .year {
@@ -533,7 +536,7 @@ section{
   width: 70%;
 }
 
-.skills-info .edu-list {
+/* .skills-info .edu-list {
   display: flex;
   column-gap: 30px;
 }
@@ -552,7 +555,7 @@ section{
 
 .skills-info .edu-list .item {
   justify-content: start;
-}
+} */
 
 /* Gallery Section */
 
@@ -878,6 +881,8 @@ and (max-width: 1180px) {
   }
 }
 
+/* About Page - Tablet */
+
 @media only screen and (min-width: 768px)
 and (max-width: 820px) {
 
@@ -981,7 +986,25 @@ and (max-width: 1180px) {
   .skills-info {
     gap: 20px;
     max-width: 1000px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .skills-info .edu-list .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 130px;
+  }
+
+  .skills-info .edu-list {
+    flex-direction: column;
+  }
+
+  .skills-info .edu-list .item {
+    justify-content: start;
   }
 
   .edu-list .item .year {
@@ -1000,21 +1023,7 @@ and (max-width: 1180px) {
     font-size: 12px;
   }
 
-  .skills-info .edu-list .item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 30px;
-    margin-bottom: 20px;
-  }
 
-  .skills-info .edu-list {
-    flex-direction: column;
-  }
-
-  .skills-info .edu-list .item {
-    justify-content: start;
-  }
 }
 
 @media only screen and (min-width: 768px)
