@@ -995,8 +995,6 @@ and (max-width: 1180px) {
     align-items: center;
     column-gap: 30px;
     margin-bottom: 20px;
-    width: 300px;
-    height: 130px;
   }
 
   .skills-info .edu-list {
@@ -1004,7 +1002,7 @@ and (max-width: 1180px) {
   }
 
   .skills-info .edu-list .item {
-    justify-content: start;
+    justify-content: flex-start;
   }
 
   .edu-list .item .year {
