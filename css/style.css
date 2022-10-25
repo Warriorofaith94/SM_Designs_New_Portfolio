@@ -979,7 +979,7 @@ and (max-width: 1180px) {
 
   .skills-info {
     gap: 20px;
-    max-width: 950px;
+    max-width: 900px;
   }
 
   .bar .info span {
