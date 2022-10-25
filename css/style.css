@@ -111,6 +111,7 @@ section{
   background: var(--transparent-color-01);
   color: var(--third-color);
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(10px);
   width: 50px;
   height: 50px;
   font-size: 1.2em;
@@ -536,12 +537,8 @@ section{
   width: 70%;
 }
 
-/* .skills-info .edu-list {
-  display: flex;
-  column-gap: 30px;
-}
-
 .skills-info .edu-list .item {
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -555,7 +552,7 @@ section{
 
 .skills-info .edu-list .item {
   justify-content: start;
-} */
+}
 
 /* Gallery Section */
 
@@ -990,6 +987,7 @@ and (max-width: 1180px) {
   }
 
   .skills-info .edu-list .item {
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
