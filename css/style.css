@@ -984,16 +984,12 @@ and (max-width: 1180px) {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 
-  .bar .info span {
-    font-size: 10px;
-  }
-
   .edu-list .item .year {
     font-size: 13px;
   }
 
   .bar .info span {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .edu-list .item p span {
