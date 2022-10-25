@@ -980,6 +980,7 @@ and (max-width: 1180px) {
 
   .skills-info {
     gap: 20px;
+    max-width: 950px;
   }
 
   .bar .info span {
@@ -995,11 +996,11 @@ and (max-width: 1180px) {
   }
 
   .edu-list .item p span {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .edu-list .item p {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .skills-info .edu-list {
