@@ -974,12 +974,12 @@ and (max-width: 1180px) {
   }
 
   .skill-section {
-    padding: 30px;
+    padding: 20px;
   }
 
   .skills-info {
     gap: 20px;
-    max-width: 900px;
+    max-width: 1000px;
   }
 
   .bar .info span {
