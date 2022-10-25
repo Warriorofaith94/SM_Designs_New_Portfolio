@@ -961,14 +961,6 @@ and (max-width: 820px) {
 @media only screen and (min-width: 1024px)
 and (max-width: 1180px) {
 
-  .skill-section {
-    padding: 30px;
-  }
-
-  .skills-info {
-    gap: 30px;
-  }
-
   .about-information-1 .about-information-container .about-information-content {
     column-gap: 20px;
     width: 100%;
@@ -980,6 +972,14 @@ and (max-width: 1180px) {
 
   .about-information-info .about-information-description {
     max-width: 900px;
+  }
+
+  .skill-section {
+    padding: 30px;
+  }
+
+  .skills-info {
+    gap: 20px;
   }
 
   .bar .info span {
@@ -995,7 +995,11 @@ and (max-width: 1180px) {
   }
 
   .edu-list .item p span {
-    font-size: 20px;
+    font-size: 17px;
+  }
+
+  .edu-list .item p {
+    font-size: 13px;
   }
 
   .skills-info .edu-list {
