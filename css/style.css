@@ -974,6 +974,14 @@ and (max-width: 1180px) {
     width: 100%;
   }
 
+  .about-information-info .about-information-description p {
+    font-size: 14px;
+  }
+
+  .about-information-info .about-information-description {
+    max-width: 900px;
+  }
+
   .bar .info span {
     font-size: 10px;
   }
