@@ -465,7 +465,7 @@ section{
 .edu-list .item p span {
   color: var(--first-color);
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .bar {
@@ -988,7 +988,7 @@ and (max-width: 1180px) {
   }
 
   .edu-list .item .year {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .bar .info span {
