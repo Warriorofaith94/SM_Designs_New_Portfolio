@@ -452,7 +452,6 @@ section{
 .edu-list .item .year {
   font-size: 15px;
   margin-bottom: 30px;
-  line-height: 2em;
   color: var(--fourth-color);
 }
 
@@ -1003,16 +1002,11 @@ and (max-width: 1180px) {
     font-size: 12px;
   }
 
-  .skills-info .edu-list {
-    display: flex;
-    column-gap: 30px;
-  }
-
   .skills-info .edu-list .item {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 30px;
     margin-bottom: 20px;
   }
 
